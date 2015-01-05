@@ -1,0 +1,41 @@
+.wrapper.login
+  background-color: grey
+
+  h1,
+  p
+    margin: 0
+    margin-bottom: 10px
+    color: black
+    text-align: center
+
+  h1
+    text-shadow: 0 2px 0 white
+
+  form
+    width: 400px
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    padding: 10px
+    border: 1px solid black
+    border-radius: 15px
+    background-color: lightgrey
+
+    input
+      width: 100%
+      float: left
+      clear: left
+      padding: 10px
+      margin-bottom: 10px
+      font-size: 25px
+
+      &:last-child
+        margin: 0
+
+      &[type="text"],
+      &[type="password"]
+        border: 0
+
+      &[type="submit"]
+        cursor: pointer
