@@ -19,7 +19,7 @@
     "jade": "^1.7.0",
     "javascript-brunch": ">=1.7.1",
     "jshint-brunch": "^1.7.0",
-    "mongoose": "^3.8.20",
+    "mongoose": "^5.7.5",
     "sass-brunch": "^1.8.8"
   }
 }
